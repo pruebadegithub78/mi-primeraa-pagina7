@@ -1,0 +1,24 @@
+<html>
+	<form>
+		<fieldset>
+			<legend>Datos del cliente</legend>
+			<p>Nombre Completo:<input type="text" name="nombre"/></p>
+			<p>Telefono Movil:<input type="tel" name="numero" maxlength="9"/></p>
+			<p>E-mail:<input type="number" name="email"/></p>
+		</fieldset>
+		<fieldset>
+			<legend>Libros</legend>
+			Selecciona un libro
+			<select name="libro">
+				<option value="libro1">HTML5 Canvas by Steve Fulton & Jeff           Fulton</option>
+				<option value="libro2">JavaScript; The Definitive Guide by    David Falanagan</option>
+				<option value="libro3">HTML5 Geolocalitation by Anthony    T.Holdener |||</option>
+  				<option value="libro4">Supercharged JavaScript Graphics by     Raffaele Cecco</option>
+				<option value="libro5">HTML5:Up and Running by Mark     Pilgrimn</option>
+			</select>
+			Cantidad (max 5):
+			<input type="number" name="numero" min="1" max="5"/>
+		</fieldset>
+		<input type="submit" value="Comprar"/>
+	</form>
+</html>
